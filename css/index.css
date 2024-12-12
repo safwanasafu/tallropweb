@@ -1,0 +1,395 @@
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: open_sansregular,Arial,Helvetica;
+    font-size: 17px;
+    color: #333;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+p{
+    font-family:open_sanslight ;
+}
+input,textarea,select{
+    font-family: open_sansregular,Arial,Helvetica ;
+
+}
+section#home{
+    background-color: #d1a223;
+    padding:2% 0 7% ;
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header h1{
+    width:80px ;
+
+}
+header h1 a{
+    display: block;
+
+}
+header h1 a img{
+    width: 100%;
+    padding-left: 6%;
+
+
+}
+header nav{
+
+
+}
+header nav ul{
+    list-style: none;
+
+    
+
+}
+header nav ul li{
+     display: inline-block;
+     margin-right: 35px;
+
+}
+header nav ul li:last-child{
+    margin-right: 0;
+}
+
+header nav ul li a{
+     font-family:open_sanslight ;
+     text-decoration: none;
+     color: #fff;
+     font-size: 18px;
+
+
+}
+section#spotlight{
+    margin-top: 15%;
+    text-align: center;
+
+}
+
+section#spotlight h1{
+    font-size: 50px;
+    color: #fff;
+    font-family:open_sansbold ;
+
+     
+}
+section#spotlight p{
+    margin: 20px auto;
+    color: #fff;
+    font-family:open_sanslight ;
+    width: 80%;
+
+
+}
+section#spotlight a{
+    color: #fff;
+    background-color: #2d2d2d;
+    padding: 20px 55px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 18px;
+
+
+}
+section#about{
+    background: #2d2d2d;
+    color: #fff;
+    display: flex;
+
+
+}
+section#about div.widjet,.widjet-middle,.widjet-end{
+    text-align: center;
+    width: 33.33%;
+    padding: 100px 60px;
+
+
+}
+section#about div.widjet span.round-icon{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #d1a223;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+section#about div.widjet-middle span.round-icon{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #d1a223;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+section#about div.widjet-end span.round-icon{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #d1a223;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+section#about div.widjet span.round-icon small{
+
+}
+section#about div.widjet h3{
+    font-size:45px ;
+    color: #d1a223;
+    margin: 10px 0;
+
+}
+section#about div.widjet-middle h3{
+    font-size:45px ;
+    color: #d1a223;
+    margin: 10px 0;
+
+}
+section#about div.widjet-end h3{
+    font-size:45px ;
+    color: #d1a223;
+    margin: 10px 0;
+
+}
+
+
+section#about div.widjet p{
+
+}
+section#about div.widjet-middle{
+    background: #262626;
+    border-left: 1px solid #d1a223;
+    border-right: 1px solid #d1a223;
+}
+section#middle{
+    padding: 70px 0;
+
+}
+section#middle div.top{
+    text-align: center;
+    margin-bottom:60px ;
+
+}
+section#middle div.top h3{
+    font-size: 45px;
+    color:#d1a223 ;
+    font-family:open_sansbold ;
+}
+section#middle ul{
+    display: flex;
+    justify-content: space-between;
+}
+section#middle ul li{
+    list-style: none;
+    width: 48%;
+    text-align: center;
+    padding: 16px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.1),0 4px 4px 0 rgba(0,0,0,0.1) ;
+}
+section#middle ul li a{
+    display: block;
+}
+section#middle ul li a img{
+    width:90px ;
+}
+section#middle ul li h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#d1a223 ;
+    margin: 15px 0 20px;
+}
+section#middle ul li h3 a{
+     color:#d1a223 ;
+     font-family:open_sansbold ;
+     text-decoration: none;
+}
+section#middle ul li p{
+    color:a6a9aa ;
+    margin-bottom: 15px;
+}
+section#middle ul li a.button{
+    text-decoration: none;
+    color: #fff;
+    background-color:#d1a223 ;
+    padding: 20px 55px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 18px;}
+
+section#main{}
+section#main section.content section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    background:#d1a223 ;
+    padding: 60px 0;
+}
+
+section#main section.content-item section.wrapper{
+    display: flex;
+    justify-content: space-between;
+     padding: 60px 0;
+
+}
+section#main section.content-item section.wrapper img.right{
+    width: 35%;
+}
+section#main section.content-item section.wrapper div.left{
+    width:50% ;
+    margin-left: 40px;
+}
+section#main section.content section.wrapper img.left{
+    width: 35%;
+}
+section#main section.content section.wrapper div.right{
+     width: 50%%;
+     margin-left: 40px;
+}
+
+section#main section.content-item section.wrapper div.left h3{
+    font-size:50px ;
+    margin-bottom:30px ;
+}
+section#main section.content-item section.wrapper div.left p{}
+
+section#main section.content section.wrapper div.right h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+section#main section.content section.wrapper div.right p{
+    color: #fff;
+}
+
+footer{}
+footer section#contact{
+   
+}
+footer section#contact section.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #2d2d2d;
+    color: #fff;
+    padding: 60px 0;
+
+}
+
+footer section#contact section.wrapper div.item{
+     width: 30%;
+     text-align: center;
+     font-size: 18px;
+}
+
+footer section#contact section.wrapper div.item img{
+    width: 33px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer section#contact section.wrapper div.item a{
+    color: #fff;
+    text-decoration: none;
+}
+footer section#contact section.wrapper div.one{
+     width: 30%;
+     text-align: center;
+}
+footer section#contact section.wrapper div.one img{
+    width: 32px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer section#contact section.wrapper div.one p{}
+footer section#contact section.wrapper div.two{
+     width: 30%;
+     text-align: center;
+}
+footer section#contact section.wrapper div.two img{
+    width: 32px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+footer section#contact section.wrapper div.two a{
+    text-decoration: none;
+      color: #fff;
+}
+section.bottom{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 20px o;
+}
+section.bottom p.right a{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+@media all and (max-width:980px){
+    section#about div.widjet,.widjet-middle,.widjet-end{
+        padding: 60px 25px;
+    }
+
+
+@media all and (max-width:768px){
+    section#spotlight h1{
+    font-size:36px px;
+    color: #fff;
+    font-family:open_sansbold ;}
+} 
+@media all and (max-width:480px){
+    section#about div.widjet,.widjet-middle,.widjet-end{
+        
+    }
+
+
+
+@media all and (max-width:480px){
+    header nav{
+        display: none;}
+        header{
+            justify-content: center;
+        }
+     section#spotlight h1{
+    font-size:26px px;}
+}
+
